@@ -82,7 +82,19 @@ node pruebas.js
 
 Ejecuta los 7 checks del laboratorio de Moodle y 5 casos propios del asistente. `index.html` muestra la misma evidencia en el navegador.
 
-**Pendiente del clan:** probar la maqueta con otro equipo y anotar qué intentaron, dónde se confundieron y qué cambiamos.
+---
+
+## Prueba con otro equipo
+
+Probamos la maqueta con la **célula Orquídea** y comparamos los dos proyectos. La comparación completa está en `comparativa.html`.
+
+**Lo que nos dejó la comparación:**
+
+- **Nuestro fuerte:** las reglas de IA responsable están en código y se pueden probar (`protegerDatos()`, `requiereHumano()`, `aviso()`, `pruebaDeSesgo()`).
+- **El fuerte de Orquídea:** diseño visual, accesibilidad avanzada y fuentes citadas con enlaces.
+- **Ideas de Orquídea que también aplicamos en nuestra maqueta:** fuentes enlazadas en cada respuesta y un estado de error con reintento.
+
+**Nota:** no registramos en el momento qué intentó hacer cada persona ni dónde se confundió. En la próxima prueba lo anotamos mientras ocurre.
 
 ---
 
