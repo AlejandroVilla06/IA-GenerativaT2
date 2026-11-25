@@ -10,6 +10,21 @@ El macro reto del módulo es un **asistente de conocimiento** para los coders de
 | 1 | Taller de experiencia de usuario para una aplicación con IA | [`S2-ia-responsable/`](S2-ia-responsable/) (maqueta del asistente) |
 | 2 | IA responsable desde el inicio | [`S2-ia-responsable/`](S2-ia-responsable/) |
 
+## Qué hay y dónde
+
+| Pieza | Qué es | Dónde |
+|-------|--------|-------|
+| Diseño y reglas | Maqueta del asistente, lista de decisiones de uso responsable, funciones y pruebas | Este repo, carpeta [`S2-ia-responsable/`](S2-ia-responsable/) |
+| Asistente con IA real | El mismo asistente conectado a un modelo, construido en Lovable | [asistente-riwi-ia-responsable.lovable.app](https://asistente-riwi-ia-responsable.lovable.app) |
+
+La maqueta de este repo usa respuestas preparadas para mostrar el flujo y las reglas. La app de Lovable aplica las mismas reglas con un modelo real:
+
+1. **Antes del modelo:** `protegerDatos()` oculta correos, celulares y documentos.
+2. **Alto impacto:** si `requiereHumano()` detecta salud, notas, permanencia o dinero, no se llama al modelo y se deriva a una persona.
+3. **Después del modelo:** `aviso()` indica que la respuesta la generó una IA.
+
+La conversación no se guarda: desaparece al recargar. El código de la app de Lovable no está en este repo.
+
 ## Cómo ejecutar
 
 ```bash
